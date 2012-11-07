@@ -1,0 +1,32 @@
+{
+    "name": "elastic/elastic",
+    "description": "RESTful Web service API micro framework for PHP",
+    "keywords": ["restful","web","service","api","micro","framework","php"],
+    "homepage": "https://github.com/timothyallyndrake/Elastic",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Timothy Allyn Drake",
+            "email": "me@timothyallyndrake.com",
+            "homepage": "http://timothyallyndrake.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "me@timothyallyndrake.com",
+        "issues": "https://github.com/timothyallyndrake/Elastic/issues",
+        "wiki": "https://github.com/timothyallyndrake/Elastic/wiki",
+        "source": "https://github.com/timothyallyndrake/Elastic/tree/master"
+    },
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "suggest": {
+        "ext-apc": "Alternative PHP Cache"
+    },
+    "autoload": {
+        "psr-0": {
+            "Elastic": "src/"
+        }
+    }
+}
